@@ -39,7 +39,7 @@ We are working on:
 - Sharing our work with stakeholders and improving based on feedback
 
 ## File Info
-- `Project Report Group 5.docx`: Our full report with all findings and visuals
+- Our full report with all findings and visuals
 - Dashboards and models will be added soon
 
 ## References
