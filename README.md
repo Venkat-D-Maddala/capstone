@@ -1,56 +1,47 @@
-# 🌎 Air Quality Prediction and Analysis in Ontario Cities
+# Air Quality Prediction and Analysis in Ontario Cities
 
-This project explores and predicts air quality trends in five Ontario cities — **Windsor, Hamilton Downtown, London, Sarnia, and Toronto West** — using historical pollutant data and machine learning models.
+This is our capstone project for DAB 322. We focused on analyzing and predicting air quality in five cities in Ontario: Windsor, Hamilton Downtown, London, Sarnia, and Toronto West.
 
-## 📊 Project Overview
+## Team Members
+- Gowtham Chandu  
+- Sanjana Indu  
+- Venkata Dhanayya  
+- LingFang He  
+- Kenechukwu Enem
 
-- **Course**: DAB 322 - Capstone Project 1  
-- **Group**: Group 5  
-- **Date**: June 2025  
-- **Team Members**: Gowtham Chandu, Sanjana Indu, Venkata Dhanayya, LingFang He, Kenechukwu Enem
+## Project Goal
+We wanted to study how air quality changes over time in different cities and build models that can predict pollution levels. This can help people and governments take action early when pollution levels rise.
 
-## 🎯 Objectives
+## What We Did
+- Collected air quality data (2021–2023) from Air Quality Ontario
+- Cleaned and processed the data using Python and Excel
+- Did visual analysis using Tableau (like PM2.5 by time of day, AQHI by season)
+- Trained Random Forest and LightGBM models to predict pollutant levels
+- Compared trends across different cities and weather conditions
 
-- Analyze historical air quality data (PM2.5, SO₂, NO₂, CO, O₃)
-- Predict pollutant levels using ML models (Random Forest, LightGBM)
-- Visualize trends using Tableau
-- Provide actionable insights for policymakers
+## Some Findings
+- PM2.5 and NO₂ levels go up during morning and evening hours (likely due to traffic)
+- Summer has higher AQHI risk than winter
+- Ozone (O₃) peaks during the day; NO₂ peaks at night
+- Sarnia and Windsor had more pollution spikes than Toronto West
 
-## 🧠 Methodology
+## Tools We Used
+- Python (Pandas, Scikit-learn, LightGBM)
+- Excel (for initial data cleaning)
+- Tableau (for graphs and dashboards)
+- GitHub (for code and report sharing)
 
-- Data Cleaning (mean imputation, outlier removal)
-- EDA (heatmaps, time-series, correlation)
-- ML Models (Random Forest & LightGBM)
-- Dashboard Visualizations (Tableau)
+## What's Next
+We are working on:
+- Adding weather data like temperature and humidity to improve our models
+- Testing more models like XGBoost
+- Making our dashboards more interactive for users
+- Sharing our work with stakeholders and improving based on feedback
 
-## 📈 Initial Findings
+## File Info
+- `Project Report Group 5.docx`: Our full report with all findings and visuals
+- Dashboards and models will be added soon
 
-- PM2.5 & NO₂ peak during morning and evening hours
-- AQHI is higher in summer; lowest in winter
-- O₃ peaks midday due to sunlight; NO₂ peaks in the evening
-- Sarnia shows strong industrial pollution impact
-
-## 🔮 Future Work
-
-- Integrate weather data (temperature, humidity)
-- Apply XGBoost and ensemble methods
-- Expand dashboard interactivity for stakeholders
-- Tune hyperparameters to improve accuracy
-
-## 📦 Files in This Repo
-
-- `Project Report Group 5.docx` — Full project writeup
-- *(Add notebooks, scripts, dashboards as you go)*
-
-## 🛠 Tools & Technologies
-
-- Python (Pandas, Sklearn, LightGBM)
-- Tableau
-- Excel
-- GitHub
-
-## 📚 References
-
-Data sources include:
-- [Air Quality Ontario](https://www.airqualityontario.com/)
-- [Environment Canada](https://climate.weather.gc.ca/)
+## References
+- Air Quality Ontario – https://www.airqualityontario.com/
+- Environment Canada – https://climate.weather.gc.ca/
